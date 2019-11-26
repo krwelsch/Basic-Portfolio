@@ -1,9 +1,26 @@
+header {
+    background-color: hotpink;
+}
+
+h1 {
+    float: left;
+}
+
+h3{
+    float: left;
+}
+
 section {
     background-color: rgba(104, 245, 245, 0.349);
 }
 
+footer {
+    background-color: gray;
+    text-align: center;
+}
+
 img {
-    width: 30%;
+    width: 25%;
     float: left;
 }
 
