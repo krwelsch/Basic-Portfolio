@@ -1,0 +1,18 @@
+section {
+    background-color: rgba(104, 245, 245, 0.349);
+}
+
+img {
+    width: 30%;
+    float: left;
+}
+
+.cvrimg {
+    width: 25%
+}
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
