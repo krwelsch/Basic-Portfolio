@@ -12,11 +12,26 @@
 h1 {
     float: left;
     width: 85%;
-    margin-left: 1%;
+    margin-left: 10%;
+    background-color: lavenderblush;
 
 }
 
-h3{
+.hdrnm {
+    background-color: lavenderblush;
+    position: fixed;
+    margin-top: 0;
+    margin-left: 10%;
+    width: 10%;
+    height: 10%;
+}
+
+.hdspace {
+    width: 75%;
+    float: left;
+}
+
+h3 {
     float: left;
     padding: 5px;
 }
@@ -44,6 +59,7 @@ hr {
     margin-left: 30px;
     font-size: 24px;
     line-height: 40px;
+    color: lavender;
 }
 
 img {
@@ -58,11 +74,13 @@ img {
     float: left;
 }
 
-.abtmecontent {
+.bio {
+    font-size: 20px;
     padding: 15px;
-    float: left;
-    margin-left: left;
-    }
+    margin-left: 19%;
+    margin-right: 3%;
+    color: lavender;
+}
 
 .fxdftr {
     width: 100%;
