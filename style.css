@@ -11,10 +11,14 @@
 
 h1 {
     float: left;
+    width: 85%;
+    margin-left: 1%;
+
 }
 
 h3{
     float: left;
+    padding: 5px;
 }
 
 body {
@@ -24,14 +28,33 @@ body {
     
 }
 
+h2 {
+    margin-left: 5%;
+}
+hr {
+    display: block;
+    margin-block-start: auto;
+    border-width: 1px;
+}
+
 img {
-    width: 25%;
-    float: left;
+    width: 5%;
+    position: relative;
+    top: 5%;
+    left: 5%
+    padding: 15%;
+    margin-left: 2%;
 }
 
 .cvrimg {
-    width: 25%
+    width: 15%;
+    padding: 15px;
 }
+
+.abtmecontent {
+    float: left;
+    margin-left: left;
+    }
 
 .fxdftr {
     width: 100%;
