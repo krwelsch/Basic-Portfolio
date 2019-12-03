@@ -1,29 +1,34 @@
 .fxdhdr {
-    background-color: hotpink;
+    background-color: #2C3E50;
     width: 100%;
-    height: 10%;
+    height: 6%;
     position: fixed;
-    border-bottom: indigo;
-    border-bottom-width: 10px;
+    border-bottom: #dd3d31;
+    border-bottom-width: 2px;
     border-bottom-style: solid;
     top: 0;
-}
+    color: #1a252F;
+    
+    }
 
 h1 {
     float: left;
     width: 85%;
     margin-left: 10%;
-    background-color: lavenderblush;
-
+    
 }
 
 .hdrnm {
-    background-color: lavenderblush;
+    background-color: rgb(242, 244, 247);
     position: fixed;
     margin-top: 0;
     margin-left: 10%;
     width: 10%;
-    height: 10%;
+    height: 6%;
+    line-height: 19px;
+    border-color: #dd3d31;
+    border-style: groove;
+    border-width: 3px;
 }
 
 .hdspace {
@@ -34,10 +39,12 @@ h1 {
 h3 {
     float: left;
     padding: 5px;
+    color: white;
+    line-height: 8px;
 }
 
 body {
-    background-color: rgba(104, 245, 245, 0.349);
+    background-color: #1ABC9c;
     width: 100%;
     height: 80%;
     
@@ -46,12 +53,14 @@ body {
 h2 {
     margin-left: 5%;
     font-size: 30px;
+    color: whitesmoke;
 }
 
 hr {
     display: block;
     margin-block-start: auto;
     border-width: 1px;
+    color: whitesmoke
 }
 
 .cntfrm {
@@ -59,7 +68,7 @@ hr {
     margin-left: 30px;
     font-size: 24px;
     line-height: 40px;
-    color: lavender;
+    color: whitesmoke;
 }
 
 img {
@@ -84,12 +93,14 @@ img {
 
 .fxdftr {
     width: 100%;
-    height: 10%;
+    height: 5%;
     position: fixed;
-    background-color: gray;
+    background-color: #1a252F;
     text-align: center;
-    font-size: 24px;
-    border-top: indigo;
+    font-size: 20px;
+    color: whitesmoke;
+    line-height: 0px;
+    border-top: #dd3d31;
     border-top-width: 10px;
     border-top-style: solid;
     bottom: 0;
@@ -97,11 +108,11 @@ img {
 
 .abtme {
     position: fixed;
-    top: 20%;
-    background-color: indigo;
+    top: 15%;
+    background-color: rgb(44, 62, 80, .50);
     margin-left: 10%;
     width: 80%;
-    height: 60%;
+    height: 70%;
 }
 
 .clearfix::after {
