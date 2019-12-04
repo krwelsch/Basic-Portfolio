@@ -167,7 +167,7 @@ img {
 }
 
 .box-1 {
-    width: 308px;
+    width: 20%;
     height: 45px;
     position: absolute;
     z-index: 2;
@@ -186,7 +186,7 @@ img {
 }
 
 .box-2 {
-    width: 308px;
+    width: 20%;
     height: 45px;
     position: absolute;
     z-index: 2;
@@ -206,7 +206,7 @@ img {
 }
 
 .box-3 {
-    width: 308px;
+    width: 20%;
     height: 45px;
     position: absolute;
     z-index: 2;
