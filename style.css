@@ -128,15 +128,16 @@ hr {
 img {
     width: 20%;
     margin-left: 2%;
+    margin-right: 2%;
     z-index: -1;
-    position: absolute;
     border-color:#1a252F;
     border-style: solid;
     border-width: 2px;
+    /* position: absolute; */
 }
 
 
-.cvrimg {
+#cvrimg {
     width: 15%; 
     float: left;
     border-color: #2C3E50;
@@ -146,11 +147,9 @@ img {
 
 .bio {
     font-size: 20px;
-    padding: 15px;
+    padding: 25px;
     margin-right: 3%;
-    margin-left: 19%;
     color: whitesmoke;
-    float: left;
 }
 
 
@@ -164,11 +163,12 @@ img {
 .img-1 {
     top: 17%;
     left: 5.5%;
+    position: absolute;
 }
 
 .box-1 {
     width: 20%;
-    height: 45px;
+    height: 7%;
     position: absolute;
     z-index: 2;
     top: 42%;
@@ -183,11 +183,12 @@ img {
 .img-2 {
     top: 17%;
     left: 37%;
+    position: absolute;
 }
 
 .box-2 {
     width: 20%;
-    height: 45px;
+    height: 7%;
     position: absolute;
     z-index: 2;
     top: 42%;
@@ -203,11 +204,12 @@ img {
 .img-3 {
     top: 17%;
     left: 67.5%;
+    position: absolute;
 }
 
 .box-3 {
     width: 20%;
-    height: 45px;
+    height: 7%;
     position: absolute;
     z-index: 2;
     top: 42%;
@@ -223,11 +225,12 @@ img {
 .img-4 {
     top: 57%;
     left: 5.5%;
+    position: absolute;
 }
 
 .box-4 {
-    width: 308px;
-    height: 45px;
+    width: 20%;
+    height: 7%;
     position: absolute;
     z-index: 2;
     top: 83%;
@@ -242,11 +245,12 @@ img {
 .img-5 {
     top: 57%;
     left: 37%;
+    position: absolute;
 }
 
 .box-5 {
-    width: 308px;
-    height: 45px;
+    width: 20%;
+    height: 7%;
     position: absolute;
     z-index: 2;
     top: 83%;
@@ -282,6 +286,11 @@ img {
     border-color: #2C3E50;
     border-style: solid;
     border-width: 2px;
+
+}
+
+.mainsect {
+    width: 980px;
 }
 
 .clearfix::after {
