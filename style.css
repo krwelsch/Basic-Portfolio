@@ -112,7 +112,7 @@ h2 {
 
 hr {
     display: block;
-    margin-block-start: auto;
+    width: 95%;
     border-width: 1px;
     color: whitesmoke
 }
@@ -155,8 +155,6 @@ img {
 
 .zinx {
     background-color: rgb(254, 245, 245, .85); 
-    width: 230px;
-    height: 40px;
     z-index: 2;
 }
 
